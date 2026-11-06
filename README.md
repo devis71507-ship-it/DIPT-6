@@ -59,7 +59,8 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.title('Original Image')
 plt.axis('off')
 ```
-<img width="386" height="508" alt="image" src="https://github.com/user-attachments/assets/40acc85c-cd50-4c50-8a7b-efdc10c90d75" />
+<img width="268" height="360" alt="image" src="https://github.com/user-attachments/assets/c1e0a036-3872-4387-baa9-ed2ec8ff7247" />
+
 
 ### Sobel Edge Detector
 - Detects edges in horizontal and vertical directions
@@ -73,7 +74,8 @@ plt.imshow(sobel_combined, cmap='gray')
 plt.title('Sobel Edge Detection')
 plt.axis('off')
 ```
-<img width="383" height="520" alt="image" src="https://github.com/user-attachments/assets/e3132c04-11a2-4f64-ab69-0246da061fc3" />
+<img width="272" height="371" alt="image" src="https://github.com/user-attachments/assets/450f706b-a544-4b00-bcba-46b147f6411a" />
+
 
 ### Prewitt Edge Detector
 - Similar to Sobel but simpler kernel
@@ -103,7 +105,8 @@ plt.title('Prewitt Edge Detection')
 plt.axis('off')
 plt.show()
 ```
-<img width="358" height="508" alt="image" src="https://github.com/user-attachments/assets/2b3e2adf-1d37-4a08-9b1a-2eb3a66470dd" />
+<img width="247" height="318" alt="image" src="https://github.com/user-attachments/assets/35cdea06-c931-484b-b32a-0d74cff6203a" />
+
 
 ### Roberts Edge Detector
 - Detects edges using diagonal gradients
@@ -129,7 +132,7 @@ plt.title('Roberts Edge Detection')
 plt.axis('off')
 plt.show()
 ```
-<img width="363" height="513" alt="image" src="https://github.com/user-attachments/assets/f9df91b3-8322-4d5e-a251-dd3fee4829f8" />
+<img width="263" height="332" alt="image" src="https://github.com/user-attachments/assets/99ec4eb7-228e-49df-9977-2b13bc4a49fd" />
 
 
 ### Laplacian Edge Detector
@@ -144,7 +147,8 @@ plt.title('Laplacian Edge Detection')
 plt.axis('off')
 plt.show()
 ```
-<img width="373" height="511" alt="image" src="https://github.com/user-attachments/assets/cde8c629-2343-46d1-8da5-6e06187b5c62" />
+<img width="237" height="328" alt="image" src="https://github.com/user-attachments/assets/29b0f1eb-6f2b-4862-be7e-8c60bf19da86" />
+
 
   
 ### Canny Edge Detector
@@ -160,7 +164,8 @@ plt.title('Canny Edge Detection')
 plt.axis('off')
 plt.show()
 ```
-<img width="376" height="511" alt="image" src="https://github.com/user-attachments/assets/004ddfe5-f428-46d2-9768-4fdbeb9c9a98" />
+<img width="253" height="332" alt="image" src="https://github.com/user-attachments/assets/1f2765b2-ee14-47ae-a63b-a7604ea5189e" />
+
 
   
 ## Result
